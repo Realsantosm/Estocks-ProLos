@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>profit-loss</title>
+</head>
+
+<body>
+    <div class="left">
+        <h1>Estocks</h1>
+        <label for="cost-price">Cost price of stock</label>
+        <input id="cost-price" type="number" placeholder="eg: 500₹">
+        <label for="number-of-shares">Number of shares </label>
+        <input id="number-of-shares" type="number" placeholder="eg: 100">
+        <label for="selling-price">Current share price</label>
+        <input id="selling-price" type="number" placeholder="eg: 650₹">
+        <button id="submit-btn">Submit</button>
+        <p id="left-message"></p>
+    </div>
+    <!-- loding svg -->
+    <div class="right">
+         <h3 id="message"></h3>
+        <img id="loading" style="display: none;" src="./images/720.svg" alt="loading-image">
+        <img id="profit-image" style="display: none;" src="./profit.gif" alt="profit image">
+        <img id="loss-image" style="display: none;" src="./loss.gif" alt="loss-image"> 
+      
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
