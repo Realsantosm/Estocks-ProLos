@@ -44,7 +44,7 @@ submitButton.addEventListener('click', function () {
                 message.innerHTML = "No Pain No Gain, No Gain No Pain.....!"
                 message.style.color = "white"
             }
-        }, 2000)
+        }, 3000)
     } else {
         leftMessage.innerHTML = "You entered invalid input...!"
     }
