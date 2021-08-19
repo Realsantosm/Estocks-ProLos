@@ -1,10 +1,31 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
 body{
+
+    font-family: 'Roboto Condensed', sans-serif;
     background-color: #f55;
     width: 90%;
     margin: auto;
     padding: auto;
     display: block;
     text-align: center;
+}
+
+#loading{
+    align-items: center;
+    height: 10vh;
+    margin: auto;
+    /* size: 1cm 1cm; */
+}
+
+#profit-image{
+    align-items: center;
+    height: 60vh;
+    margin: auto;
+}
+
+#loss-imgage{
+    align-items: center;
+    height: 80vh;
+    margin: auto;
 }

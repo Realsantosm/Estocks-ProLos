@@ -34,18 +34,18 @@ submitButton.addEventListener('click', function () {
             let moneyLost = loss * totalShares;
             if (sell > cost) {
                 message.innerHTML = `You made a profit of ${moneyMade}₹ and gained ${profitPercentage}%`
-                message.style.color = "#10B981";//green 
+                message.style.color = "#264653"; 
                 profitImage.style.display = "block";
             } else if (cost > sell) {
                 message.innerHTML = `You lost ${moneyLost}₹ which is about ${lossPercentage}%`
-                message.style.color = "#F87171";//red
+                message.style.color = "#f2bac9";
                 lossImage.style.display = "block"
             } else {
-                message.innerHTML = "You did not make or lose any money"
+                message.innerHTML = "No Pain No Gain, No Gain No Pain.....!"
                 message.style.color = "white"
             }
         }, 2000)
     } else {
-        leftMessage.innerHTML = "Enter Valid input"
+        leftMessage.innerHTML = "You entered invalid input...!"
     }
 })
