@@ -5,10 +5,13 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #f55;
     width: 90%;
+    height: 90vh;
     margin: auto;
-    padding: auto;
+    padding-down: auto;
     display: block;
     text-align: center;
+    box-sizing: border-box;
+    border: #000 solid 2px;
 }
 
 #loading{
