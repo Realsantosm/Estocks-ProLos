@@ -4,14 +4,15 @@ body{
 
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #f55;
-    width: 90%;
-    height: 90vh;
-    margin: auto;
-    padding-down: auto;
+    box-sizing: border-box;
+    border: #000 solid 5px;
+    height: 95vh;
     display: block;
     text-align: center;
-    box-sizing: border-box;
-    border: #000 solid 2px;
+    max-width: 100%;
+
+
+
 }
 
 #loading{
