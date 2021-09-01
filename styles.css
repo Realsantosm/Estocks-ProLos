@@ -6,13 +6,16 @@ body{
     background-color: #f55;
     box-sizing: border-box;
     border: #000 solid 5px;
-    height: 95vh;
-    display: block;
+    height: 98vh;
+    /* display: block; */
     text-align: center;
-    max-width: 100%;
+    /* max-width: 100%; */
 
+}
 
-
+label {
+    /* display: block; */
+    padding : 0.5rem;
 }
 
 #loading{
