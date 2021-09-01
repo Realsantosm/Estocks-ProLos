@@ -38,7 +38,7 @@ submitButton.addEventListener('click', function () {
                 profitImage.style.display = "block";
             } else if (cost > sell) {
                 message.innerHTML = `You lost ${moneyLost}₹ which is about ${lossPercentage}%`
-                message.style.color = "#f55";
+                message.style.color = "#000";
                 lossImage.style.display = "block"
             } else {
                 message.innerHTML = "No Pain No Gain, No Gain No Pain.....!"
