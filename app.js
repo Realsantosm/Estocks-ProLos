@@ -33,12 +33,12 @@ submitButton.addEventListener('click', function () {
             let moneyMade = profit * totalShares;
             let moneyLost = loss * totalShares;
             if (sell > cost) {
-                message.innerHTML = `You made a profit of ${moneyMade}₹ and gained ${profitPercentage}%`
+                message.innerHTML = `Your profit of ${moneyMade}₹ and gained ${profitPercentage}%`
                 message.style.color = "#264653"; 
                 profitImage.style.display = "block";
             } else if (cost > sell) {
                 message.innerHTML = `You lost ${moneyLost}₹ which is about ${lossPercentage}%`
-                message.style.color = "#f2bac9";
+                message.style.color = "#f55";
                 lossImage.style.display = "block"
             } else {
                 message.innerHTML = "No Pain No Gain, No Gain No Pain.....!"
